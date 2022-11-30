@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html><head>
+  <link rel="stylesheet" href="gtest.css"/>
+  <script src="bootstrap.js"></script>
+</head><body>
+  <img src="../notes/witch-graphics.png" class="hidden" id="source"/>
+
+  <div class="control-bar">
+    <div class="rgb">
+      <input type="range" name="bgr" value="128" min="0" max="255"/>
+      <input type="range" name="bgg" value="128" min="0" max="255"/>
+      <input type="range" name="bgb" value="128" min="0" max="255"/>
+      <div id="bg-color-tattle">#808080</div>
+    </div>
+    <textarea name="animation" class="valid">(0,0,100)</textarea>
+  </div>
+
+  <div class="view-row">
+    <canvas id="outer-view" onclick="clickInOuterView(event)"></canvas>
+    <canvas id="digested-view"></canvas>
+  </div>
+  
+</body></head>
