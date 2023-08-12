@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html><head>
+<style>
+html {
+  background-color: #000;
+}
+</style>
+<script>
+function drawPentagram() {
+  const canvas = document.getElementById("cvs");
+  const ctx = canvas.getContext("2d");
+  const points = [];
+  for (let i=0; i<=5; i++) {
+    const t = (i * Math.PI * 2) / 5;
+    const x = 32 + Math.sin(t) * 30;
+    const y = 32 + Math.cos(t) * 30;
+    points.push([x, y]);
+  }
+  ctx.arc(32, 32, 30, 0, Math.PI * 2);
+  ctx.moveTo(...points[0]);
+  ctx.lineTo(...points[2]);
+  ctx.lineTo(...points[4]);
+  ctx.lineTo(...points[1]);
+  ctx.lineTo(...points[3]);
+  ctx.lineTo(...points[0]);
+  ctx.strokeStyle = "#fff";
+  ctx.stroke();
+}
+</script>
+</head><body onload="drawPentagram()">
+<canvas id="cvs" width="64" height="64"></canvas>
+</body></html>
