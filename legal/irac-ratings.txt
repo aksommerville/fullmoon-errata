@@ -1,0 +1,14 @@
+IARC Ratings
+Per questionnaire 2023-09-26
+
+ACB Australia PG Parental Guidance : Mild Violence, Scary Scenes
+ClassInd Brazil 10 10 anos : Violence, Fear
+ESRB Americas T TEEN : Violence, Blood
+GRAC South Korea 12 12세이용가 : Violence, Fear
+PEGI Europe 12 PEGI 12 : Moderate Violence
+TCA Taiwan 15+ 輔15級 : Violence, Horror
+USK Germany 12 USK ab 12 : Comic Violence, Scary Moments
+Russia Russia 12 : Violence, Fear
+Generic Other Regions 12 : Moderate Violence
+
+IARC Certificate ID: 6c1929b7-a30f-4ca0-b854-4a284759b7f7
