@@ -1,0 +1,47 @@
+Tablet of Revelations
+
+We'll ask 8 questions, and the top panel contains 10 holes which line up with a 10x10 grid of letters on the lower panel.
+Letters along the diagonals can't be used.
+Each hole is unique across all 8 transforms.
+Each cell is exactly 10mm square.
+Holes can't be adjacent to each other.
+
+Questions:
+
+  Song of Blooming        L R L _ U U D
+  Lullabye                L _ D _ L D R
+  Rain Spell              U L D U R D
+  Wind Spell              R U L D R L ?
+  Spell of Opening        L R L U U
+  Pumpkin Spell           U D U D L L R
+  Spell of Invisibility   L U D R L L R R
+  Slow Motion Spell       R L L R L L D L
+
+Decline: Reveille, Konami Code, and all the Teleports.
+
+Run gencontent.js to regenerate the tables randomly. (edit first to change the spells)
+
+=== LETTERS ===
+ D U R D U   R   L ?
+ L R     L U   L ?  
+ R   L D   L L ?   L
+ _   D   L L R   D  
+ D R L L R ? U _ L R
+ U L D D U   R ? L  
+   _   ? D   L U R R
+ R L R L     L L   R
+   D U   L L     ? D
+ U U   U   U R D R L
+
+=== HOLES ===
+ . . . . . . . . . .
+ . . . . . . . . . O
+ . . . . . . . . . .
+ . . . . . . . O . O
+ . . O . / \ . . . .
+ . . . . \ / O . O .
+ . O . . . . . . . .
+ . . . . . . . . . .
+ . . O . . . . . . .
+ . . . . . O . O . .
+
